@@ -1,0 +1,42 @@
+
+ALGORITHM algorithm_name
+VAR
+    somme = 0
+    tableau = []
+    element,ensemble1,ensemble2:INTEGER
+    resultat:INTEGER
+    
+BEGIN
+   for element in ensemble1:
+        if element not in tableau:
+            tableau.append(element)
+            somme += element
+        end if
+    end for
+
+    
+    for element in ensemble2:
+        if element not in tableau:
+            tableau.append(element)
+            somme += element
+        end if 
+
+    end for
+
+    return somme
+    resultat=ensemble1+ensemble2
+    write ("Somme des éléments distincts : ", resultat)
+END
+
+
+
+
+
+
+    
+
+    
+    
+
+
+

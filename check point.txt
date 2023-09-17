@@ -1,0 +1,20 @@
+ALGORITHM phrase
+VAR
+    caractere,phrase :STRING
+    i,j,k: integer
+    sum:integer
+BEGIN
+// un algo qui lit une phrase .
+    FOR caractere FROM 0 TO length(phrase) STEP 1 DO
+        if caractere==' 'THEN
+            i+=1
+         END_IF
+          if caractere in ['a,e,i,o,u'] THEN
+          j+=1
+        END_IF=
+    
+    END_FOR
+    write('i,j')
+
+
+END
